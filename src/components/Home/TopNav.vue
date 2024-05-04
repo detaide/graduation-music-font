@@ -5,7 +5,7 @@
   <div class="topNav">
     <!-- 头部左边 -->
     <div class="left-icon">
-      <i class="iconfont icon-list"></i>
+      <i class="iconfont icon-list icon-nav-left"></i>
     </div>
     <router-link to="/search">
       <!-- 搜索框div -->
@@ -34,9 +34,11 @@
   width: 100%;
   display: flex;
   height: 1.2rem;
-  background-color: #242323;
+  /* background-color: #242323; */
+  background-color: #fff;
   align-items: center;
   padding: 0rem 1em;
+  border-bottom: 1px solid #ccc;
 }
 .left-icon {
   width: 0.5rem;
@@ -84,6 +86,10 @@
   border: none;
   border-radius: 1rem;
   font-size: 0.32rem;
-  background-color: rgb(61, 51, 59);
+  /* background-color: rgb(61, 51, 59); */
+  background-color: #ccc;
+}
+.icon-nav-left{
+  color:black !important;
 }
 </style>

@@ -154,7 +154,7 @@ function deleteFinish()
 	line-height: normal;
 	/* height: 65%; */
 	width: 100%;
-	/* background-color: red; */
+	background-color: #aaa;
 	overflow: auto;
 	border-radius: 0.45rem 0.45rem 0 0;
 	position: relative;
@@ -175,7 +175,8 @@ function deleteFinish()
 .topbar {
 	display: flex;
 	justify-content: space-between;
-	color: #fff;
+	/* color: #fff; */
+	color: #222;
 	padding: 0.3rem 0.4rem;
 	border-radius: 0.45rem 0.45rem 0 0;
 	border-bottom: 0.02rem solid rgb(197, 188, 188);
@@ -193,7 +194,7 @@ function deleteFinish()
 }
 
 .topbar .topleft div {
-	color: rgb(177, 191, 201);
+	/* color: rgb(177, 191, 201); */
 }
 
 .topbar .topright {
@@ -220,20 +221,21 @@ function deleteFinish()
 	text-align: center;
 	font-size: 0.45rem;
 	width: 15%;
-	color: #b7aeae;
-
+	/* color: #b7aeae; */
+	color: #444;
 }
 
 .list .song {
 	width: 70%;
 	height: 100%;
 	display: flex;
+	
 }
 
 .list .song .songInfo {
 	width: 78%;
 	height: 100%;
-
+color: #444;
 
 }
 
@@ -241,12 +243,12 @@ function deleteFinish()
 	height: 50%;
 	font-size: .36rem;
 	font-weight: 550;
-	color: #dcd8d8;
+	/* color: #dcd8d8; */
 	margin-top: .1rem;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-
+	color: #444;
 	/* line-height: 20%; */
 
 }
@@ -263,7 +265,8 @@ function deleteFinish()
 	height: 50%;
 	font-size: .28rem;
 	/* font-weight: 550; */
-	color: #bab5b5;
+	/* color: #bab5b5; */
+	color: #444;
 
 
 }

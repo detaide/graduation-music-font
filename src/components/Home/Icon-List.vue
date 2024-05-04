@@ -54,10 +54,13 @@
     width: 100%;
     height: 1.60rem;
     /* background-color: #fff; */
-    background-color: #242323;
+    /* background-color: #242323; */
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .iconList div {
@@ -67,7 +70,8 @@
 }
 
 .iconList p {
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     font-size: 0.28rem;
     font-weight: bold;
     text-align: center;

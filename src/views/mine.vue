@@ -197,6 +197,7 @@ function logout()
 	/* background-color: red; */
 	padding: 0 20px;
 	margin-bottom: 360px;
+	background: linear-gradient(white, #ccc);
 }
 
 .topbar {
@@ -208,13 +209,14 @@ function logout()
 	padding: 0.2rem 0.4rem;
 	justify-content: space-between;
 	/* position: relative; */
-	color: #fff;
+	/* color: #fff; */
 	position: fixed;
 	top: 0px;
 	left: 0;
 	z-index: 1;
 	/* 头部透明背景 0.08*/
 	background-color: rgba(241, 231, 231, 0.03);
+	border-bottom: 1px solid #ccc;
 }
 
 .leftbox {

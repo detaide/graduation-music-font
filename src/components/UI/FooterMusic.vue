@@ -235,7 +235,8 @@ function updateTime() {
 .footerMusic-bar {
     width: 100%;
     height: 1rem;
-    background-color: rgb(34, 39, 39);
+    /* background-color: rgb(34, 39, 39); */
+    background-color: #fff;
     padding: 5px 20px;
     position: absolute;
     left: 0;
@@ -244,6 +245,7 @@ function updateTime() {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid #ccc;
 }
 
 .footerLeft {
@@ -275,7 +277,8 @@ function updateTime() {
 
 .footerLeft .MusciInfo .musicname {
     font-size: 17px;
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     /* overflow: hidden; */
     white-space: nowrap;
     /* text-overflow: ellipsis; */
@@ -312,7 +315,8 @@ function updateTime() {
 .footerRight {
     width: 20%;
     display: flex;
-    color: #fff;
+    /* color: #fff; */
+    color: black;
     font-size: 20px;
     justify-content: space-between;
 }

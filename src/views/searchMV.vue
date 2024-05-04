@@ -54,6 +54,7 @@
     padding: 90px 20px;
 }
 
+
 .mv-box{
     display: flex;
     flex-direction: row;
@@ -62,6 +63,8 @@
     width: 100%;
     /* border: 1px solid white; */
     padding: 15px;
+    background-color: #bbb;
+    border-radius: 12px;
 }
 .left{
     /* border: 1px solid white; */

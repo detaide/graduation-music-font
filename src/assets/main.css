@@ -9,7 +9,8 @@ html {
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(27, 27, 37);
+  /* background-color: rgb(27, 27, 37); */
+  background-color: #fff;
 }
 .icon{
   width: 0.5rem;

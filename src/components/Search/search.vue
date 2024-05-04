@@ -108,7 +108,8 @@ const tagSearch = async (item) => {
   position: relative;
   /* flex-direction: column; */
   z-index: 1;
-  background-color: rgb(27, 27, 37);
+  /* background-color: rgb(27, 27, 37); */
+  background-color: #fff;
 }
 .historybox {
   /* width: 70%vw; */
@@ -130,7 +131,8 @@ const tagSearch = async (item) => {
 }
 .tag {
   font-size: 0.32rem;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
 }
 .historyList {
   /* background-color: aqua; */

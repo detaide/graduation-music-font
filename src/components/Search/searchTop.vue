@@ -122,7 +122,9 @@ const goBack = ()=>{
   justify-content: space-around;
   z-index: 1;
   /* 头部透明背景 0.08*/
-  background-color: rgba(241, 231, 231, 0.03)
+  /* background-color: rgba(241, 231, 231, 0.03) */
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 .left-icon {
   width: 0.5rem;
@@ -161,7 +163,8 @@ const goBack = ()=>{
   font-size: 0.32rem;
   color: rgb(160, 160, 172);
 
-  background-color: rgb(61, 51, 59);
+  /* background-color: rgb(61, 51, 59); */
+  background-color: #ccc;
 }
 .searchBtn {
   width: 15vw;

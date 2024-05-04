@@ -60,7 +60,9 @@
 /* height共1.5rem */
   height: 1.5rem;
   /* margin: .1rem .2rem 0rem .2rem; */
-  background-color: #242323;
+  /* background-color: #242323; */
+  border-top: 1px solid #ccc;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
   /* margin: 0 0.2rem; */

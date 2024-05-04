@@ -58,7 +58,8 @@ function changeCount(num){
 </template>
 <style scoped>
 .recomPlayLists {
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #fff;
 }
 .recomTop{
     padding: .06rem .2rem;
@@ -66,7 +67,8 @@ function changeCount(num){
 .recomInfo {
   display: flex;
   font-size: 0.4rem;
-  color: #fff;
+  /* color: #fff; */
+  color: black;
 
 }
 .recomInfo p {
@@ -81,7 +83,8 @@ function changeCount(num){
 }
 .recomSwiper{
     /* height: 2.5rem; */
-    background-color: #000;
+    /* background-color: #000; */
+    background-color: #fff;
 }
 .recomSwiper .picture img{
     height: 2.5rem;
@@ -98,8 +101,10 @@ function changeCount(num){
 .playcount-wraper i,
 .playcount-wraper p{
     color: #fff;
+    /* color: black; */
 }
 .recomSwiper .playInfo{
-    color: #fff;
+    /* color: #fff; */
+    color: #444;
 }
 </style>
